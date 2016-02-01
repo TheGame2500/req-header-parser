@@ -1,13 +1,28 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "name": "req-head-parser",
+  "version": "1.0.0",
+  "description": "Request header parser FCC API Project.",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
-  }
+    "dotenv": "^2.0.0",
+    "express": "^4.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGame2500/req-header-parser.git"
+  },
+  "keywords": [
+    "fcc"
+  ],
+  "author": "Bira Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheGame2500/req-header-parser/issues"
+  },
+  "homepage": "https://github.com/TheGame2500/req-header-parser#readme"
 }
